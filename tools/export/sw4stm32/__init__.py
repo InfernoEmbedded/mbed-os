@@ -128,6 +128,11 @@ class Sw4STM32(GNUARMEclipse):
             'name': 'INFERNOEMBEDDED_SOFTDEVICE',
             'mcuId': 'STM32F030R8Tx'
         },
+        'INFERNOEMBEDDED_SOFTDEVICE_BOOTLOADER':
+        {
+            'name': 'INFERNOEMBEDDED_SOFTDEVICE_BOOTLOADER',
+            'mcuId': 'STM32F030R8Tx'
+        },
         'NUCLEO_F031K6':
         {
             'name': 'NUCLEO-F031K6',
