@@ -35,6 +35,7 @@ class CoIDE(Exporter):
         'NUCLEO_L053R8',
         'NUCLEO_L152RE',
         'NUCLEO_F030R8',
+        'INFERNOEMBEDDED_SOFTDEVICE',
         'NUCLEO_F042K6',
         'NUCLEO_F070RB',
         'NUCLEO_F072RB',
