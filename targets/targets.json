@@ -1989,6 +1989,27 @@
         "release_versions": ["2"],
         "device_name": "STM32F030R8"
     },
+    "INFERNOEMBEDDED_SOFTDEVICE": {
+        "inherits": ["FAMILY_STM32"],
+        "core": "Cortex-M0",
+        "extra_labels_add": ["STM32F0", "STM32F030R8"],
+        "config": {
+            "clock_source": {
+                "help": "Mask value : USE_PLL_HSI",
+                "value": "USE_PLL_HSI",
+                "macro_name": "CLOCK_SOURCE"
+            }
+        },
+        "macros_add": [
+            "CMSIS_VECTAB_VIRTUAL",
+            "CMSIS_VECTAB_VIRTUAL_HEADER_FILE=\"cmsis_nvic.h\""
+        ],
+        "device_has_add": ["CRC", "SERIAL_FC"],
+        "device_has_remove": ["LPTICKER"],
+        "default_lib": "small",
+        "release_versions": ["2", "5"],
+        "device_name": "STM32F030R8"
+    },
     "NUCLEO_F031K6": {
         "inherits": ["FAMILY_STM32"],
         "supported_form_factors": ["ARDUINO"],

@@ -59,6 +59,7 @@ sys_list = []      #'PIN','name','SYS'
 
 TIM_MST_LIST = { # Timer used for us ticker is hardcoded in this script
 "NUCLEO_F030R8":"TIM1",
+"INFERNOEMBEDDED_SOFTDEVICE":"TIM1",
 "NUCLEO_F072RB":"TIM2",
 "NUCLEO_F091RC":"TIM2",
 "NUCLEO_F070RB":"TIM1",
