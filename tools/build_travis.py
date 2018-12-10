@@ -39,6 +39,7 @@ build_list = [
         { "target": "NUCLEO_L152RE",     "toolchains": "GCC_ARM", "libs": ["dsp"] },
         { "target": "NUCLEO_F030R8",     "toolchains": "GCC_ARM", "libs": ["dsp"] },
         { "target": "INFERNOEMBEDDED_SOFTDEVICE", "toolchains": "GCC_ARM", "libs": ["dsp"] },
+        { "target": "INFERNOEMBEDDED_SOFTDEVICE_BOOTLOADER", "toolchains": "GCC_ARM", "libs": ["dsp"] },
         { "target": "NUCLEO_F031K6",     "toolchains": "GCC_ARM", "libs": ["dsp"] },
         { "target": "NUCLEO_F042K6",     "toolchains": "GCC_ARM", "libs": ["dsp"] },
         { "target": "NUCLEO_F070RB",     "toolchains": "GCC_ARM", "libs": ["dsp"] },
