@@ -1,0 +1,17 @@
+rtos/*
+features/netsocket/*
+features/cellular/*
+features/lwipstack/*
+features/FEATURE_CLIENT/*
+features/FEATURE_COMMON_PAL/*
+features/FEATURE_UVISOR/*
+features/frameworks/*
+features/net/*
+features/storage/*
+features/lorawan/*
+features/nanostack/*
+features/nfc/*
+events/*
+components/802.15.4_RF/*
+components/wifi/*
+
